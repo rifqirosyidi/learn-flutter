@@ -13,8 +13,10 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: Center(
-            child: Image(
-              image: NetworkImage('https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8&w=1000&q=80')
+            child: Icon(
+              Icons.ad_units_sharp,
+              color: Colors.orangeAccent,
+              size: 50.0
             )
         ),
         floatingActionButton: FloatingActionButton(
