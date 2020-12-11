@@ -13,16 +13,10 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: Center(
-            child: RaisedButton.icon(
-              onPressed: () {
-                print('You Clicked The Button');
-              },
-                icon: Icon(
-                  Icons.mail,
-                  color: Colors.deepOrange
-                ),
-              label: Text("Click"),
-              color: Colors.orangeAccent
+            child: IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.mail),
+              color: Colors.amber
             )
         ),
         floatingActionButton: FloatingActionButton(
